@@ -1,7 +1,7 @@
 const std = @import("std");
 const zap = @import("zap");
 
-const handler = @import("handler.zig");
+const handler = @import("handlers/handler.zig");
 
 pub fn main() !void {
     var listener = zap.HttpListener.init(.{
